@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MultipleOfEleven.Domain.Models\MultipleOfEleven.Domain.Models.csproj" />
+    <ProjectReference Include="..\MultipleOfEleven.Domain.Services\MultipleOfEleven.Domain.Services.csproj" />
+  </ItemGroup>
+
+</Project>
